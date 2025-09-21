@@ -6,6 +6,6 @@
   <a href="https://www.jsg.utexas.edu/researcher/yangkang_chen" target="_blank">Yangkang Chen<sup>2</sup></a>
 </div>
 <div align="center">
-  <sup>1</sup>College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals</a> &emsp;
-  <sup>2</sup>Jackson School of Geosciences, University of Texas at Austin
+  <sup>1</sup> College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals <br>
+  <sup>2</sup> Jackson School of Geosciences, University of Texas at Austin
 </div>
