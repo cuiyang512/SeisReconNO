@@ -47,4 +47,4 @@ After the FNO layer, two more U-FNO layers are added. They are similar to the FN
 
 At the end of the model, the original dimensions are restored by removing the extra padding using slicing
 
-![Training model workflow](figs/U_FNO_Architecture.png)
+![Training model workflow](figs/UFNO_architecture.png)
