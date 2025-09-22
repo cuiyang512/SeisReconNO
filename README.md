@@ -59,3 +59,49 @@ After the FNO layer, two more U-FNO layers are added. They are similar to the FN
 At the end of the model, the original dimensions are restored by removing the extra padding using slicing
 
 ![Training model workflow](figs/UFNO_architecture.png)
+
+## Training process
+
+The training process workflow can be divided into 4 steps:
+  1) **Training data:** 750 patches were used (from F3 and moomba 3D cube) and combine them together as input. In the same path, the label were created by combining both F3 and Moomba 3D clear cube (without any missing traces and noisy).
+  
+  2) **Reshaping the data:** The training data was reshape into [batchsize, time slice, inline, xline].
+  
+  4) **Stablish the Hyperparameters:**
+
+      - **Number of Epochs**: 200
+      - **Learning Rate**: 1e-3
+      - **Step Size**: 2
+      - **Gamma**: 0.9
+      - **Batch Size**: 1 (due to memory constraints)
+      - **Data Split**:
+        - **Training**: 80% (600 patches)
+        - **Validation**: 20% (150 patches)
+      - **Optimizer**: ADAM
+      - **Loss Function**: Mean Squared Error (MSE)
+
+5) **train the model with the input** 
+      
+## How to run the training code?
+
+  1) **Step 1: Download seismic cubes**: [F3](https://wiki.seg.org/wiki/F3_Netherlands), [Moomba](https://sarigbasis.pir.sa.gov.au/WebtopEw/ws/samref/sarig1/wci/ResultSet?w=NATIVE(%27REFERENCE+ph+is+%22Env%2009124%22%27);order=TITLE;r=1;m=1;rpp=25), and [Kerry](https://wiki.seg.org/wiki/Kerry-3D).
+  2) **Step 2: QC and patches generation**: You can simply run [patch_generation_field_cubes.ipynb](https://github.com/cuiyang512/ML-UFNO-3D-Seis-Recon/blob/main/data_processing/patch_generation_field_cubes.ipynb) to save the .npy files of the field cubes.
+  3) **Step 3: run the train code**: Note that we provide two versions of the network training code. The python script makes the training process soomthly [train.py](https://github.com/cuiyang512/ML-UFNO-3D-Seis-Recon/blob/main/train.py). While the jupyter notebook script provide some visualization steps to make sure the training process goes correctly 
+[UFNO_3D_recon_train.ipynb](https://github.com/cuiyang512/ML-UFNO-3D-Seis-Recon/blob/main/notebook/UFNO_3D_recon_train.ipynb).
+
+## Development
+
+    The development team welcomes voluntary contributions from any open-source enthusiast. 
+    If you want to make contribution to this project, feel free to contact the development team. 
+    
+## Contact
+
+    Regarding any questions, bugs, developments, collaborations, please contact  
+    Yang Cui & Alessandro Traversa
+    yang.cui512@gmail.com
+    traversa942@gmail.com
+
+## References
+
+    1) Wen, G., Li, Z., Azizzadenesheli, K., Anandkumar, A., & Benson, S. M. (2022). U-FNO—An enhanced Fourier neural operator-based deep-learning model for multiphase flow. Advances in Water Resources, 163, 104180.
+    2) Li, Z., Kovachki, N., Azizzadenesheli, K., Liu, B., Bhattacharya, K., Stuart, A., & Anandkumar, A. (2020). Fourier neural operator for parametric partial differential equations. arXiv preprint arXiv:2010.08895.
