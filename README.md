@@ -11,11 +11,12 @@
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/github/stars/cuiyang512/ML-UFNO-3D-Seis-Recon" alt="GitHub Stars" />
-  <img src="https://img.shields.io/github/forks/cuiyang512/ML-UFNO-3D-Seis-Recon" alt="GitHub Forks" />
-  <img src="https://img.shields.io/github/repo-size/cuiyang512/ML-UFNO-3D-Seis-Recon" alt="Repo Size" />
-  <img src="https://img.shields.io/github/last-commit/cuiyang512/ML-UFNO-3D-Seis-Recon" alt="Last Commit" />
+  <img src="https://img.shields.io/github/stars/cuiyang512/SeisReconNO" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/forks/cuiyang512/SeisReconNO" alt="GitHub Forks" />
+  <img src="https://img.shields.io/github/repo-size/cuiyang512/SeisReconNO" alt="Repo Size" />
+  <img src="https://img.shields.io/github/last-commit/cuiyang512/SeisReconNO" alt="Last Commit" />
   <img src="https://img.shields.io/badge/language-Jupyter%20Notebook-%233572A5" alt="Language" />
+  <img src="https://img.shields.io/badge/language-Python%20Notebook-%233572A5" alt="Language" />
 </div>
 
 
