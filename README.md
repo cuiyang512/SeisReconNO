@@ -1,4 +1,4 @@
-# SeisReconNO: Leveraging a U-Net-Enhanced Fourier Neural Operator for 3D Seismic Reconstruction
+# [SeisReconNO: Leveraging a U-Net-Enhanced Fourier Neural Operator for 3D Seismic Reconstruction](https://doi.org/10.1016/j.aiig.2026.100212)
 <div align="center">
   <a href="https://github.com/traversa942" target="_blank">Alessandro Traversa<sup>1</sup></a> &emsp;
   <a href="https://github.com/cuiyang512" target="_blank">Yang Cui<sup>1</sup></a> &emsp;
@@ -24,16 +24,16 @@
 Missing traces in 3D seismic data are a recurring challenge caused by receiver malfunctions, acquisition limitations, and geological or environmental constraints. These gaps hinder accurate interpretation and further processing. Although numerous model-driven approaches have been developed in recent decades, they often struggle with reconstructing the data with complex geological structures and high missing ratios. To address these limitations, we proposed a U-Net-enhanced Fourier Neural Operator (UFNO) 3D seismic reconstruction framework to achieve a mesh-invariant seismic reconstruction across different missing scenarios. The UFNO model leverages both spectral and spatial representations to learn a generalized reconstruction operator. We train the model on field 3D seismic cubes featuring three key missing-data patterns: random, trace-wise,  and regular. Experimental results demonstrate the superior reconstruction capability of UFNO across varying missing ratios. Moreover, the model exhibits strong generalization to unseen data with different resolutions, confirming its potential as a robust and adaptable tool for seismic data enhancement in real-world applications.
 
 ## Reference
-    Traversa, Alessandro and Cui, Yang, and Waheed, Umair Bin and Chen, Yangkang. (2025). SeisReconNO: Leveraging a U-Net-Enhanced Fourier Neural Operator for 3D Seismic Reconstruction. TBD.
+    Traversa, Alessandro, Yang Cui, Umair Bin Waheed, and Yangkang Chen. "SeisReconNO: Leveraging a U–Net-Enhanced Fourier neural operator for 3D seismic reconstruction." Artificial Intelligence in Geosciences (2026): 100212.
 BibTex
 
-    @article{SeisReconNO2025,
-      title={SeisReconNO: Leveraging a U-Net-Enhanced Fourier Neural Operator for 3D Seismic Reconstruction},
-      author={Traversa, Alessandro and Cui, Yang, and Waheed, Umair Bin and Chen, Yangkang.},
-      journal={TBD},
-      year={2025},
-      publisher={TBD}
-    }
+    @article{traversa2026seisreconno,
+    title={SeisReconNO: Leveraging a U--Net-Enhanced Fourier neural operator for 3D seismic reconstruction},
+    author={Traversa, Alessandro and Cui, Yang and Waheed, Umair Bin and Chen, Yangkang},
+    journal={Artificial Intelligence in Geosciences},
+    pages={100212},
+    year={2026},
+    publisher={Elsevier}}
 
 
 ## Install 
