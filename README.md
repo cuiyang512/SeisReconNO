@@ -79,7 +79,7 @@ After the FNO layer, two more U-FNO layers are added. They are similar to the FN
 
 Then a Dense connection layer is applied and at the end of the model, the original dimensions are restored by removing the extra padding using slicing.
 
-![Training model workflow](figs/UFNO_architecture.png)
+![Training model workflow](figs/UFNO_architecture_r1.png)
 
 ## Training process
 
