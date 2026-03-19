@@ -121,4 +121,3 @@ The training process workflow can be divided into 4 steps:
     Yang Cui & Alessandro Traversa
     yang.cui512@gmail.com
     traversa942@gmail.com
-differential equations. arXiv preprint arXiv:2010.08895.
