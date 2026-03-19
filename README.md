@@ -108,7 +108,7 @@ The training process workflow can be divided into 4 steps:
   1) **Step 1: Download seismic cubes**: [F3](https://wiki.seg.org/wiki/F3_Netherlands), [Moomba](https://catalog.sarig.sa.gov.au/document/mesac35250), and [Kerry](https://wiki.seg.org/wiki/Kerry-3D).
   2) **Step 2: QC and patches generation**: You can simply run [patch_generation_field_cubes.ipynb](https://github.com/cuiyang512/SeisReconNO/blob/main/Data_processing/patch_generation_field_cubes.ipynb) for each cube and save the .npy files of the field cubes.
   3) **Step 3: run the train code**: Note that we provide two versions of the network training code. The python script makes the training process soomthly [train.py](https://github.com/cuiyang512/ML-UFNO-3D-Seis-Recon/blob/main/train.py). While the jupyter notebook script provide some visualization steps to make sure the training process goes correctly 
-[UFNO_3D_recon_train.ipynb](https://github.com/cuiyang512/ML-UFNO-3D-Seis-Recon/blob/main/notebook/UFNO_3D_recon_train.ipynb).
+[UFNO_3D_recon_train.ipynb](https://github.com/cuiyang512/SeisReconNO/blob/main/UFNO_3D_Seismic_Recon_Training.ipynb).
 
 ## Development
 
