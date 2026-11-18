@@ -63,7 +63,7 @@ Regarding the training data, we used two open source post-stack 3D seismic data:
   2) **Moomba lake data from Austrilia:** [Moomba open-source data](https://catalog.sarig.sa.gov.au/document/mesac35250)
   3) **Kerry data from New Zealand:** [Kerry open-source data](https://wiki.seg.org/wiki/Kerry-3D)
   4) **Mobil Avo Viking Graben Line 12, prestack:**[Prestack open-source data](https://github.com/douyimin/MDA_GAN)
-  5) **Due to the limitation of Github, we uploaded all the saved training model to a Google Drive folder. Please download them from the attached link:** [save wieght matrix Goole Drive](https://drive.google.com/drive/folders/1CjeKiHW0GV_PfeqWZDzzwb2J0Zm6tEA1?usp=sharing)
+  5) **Due to the limitation of Github, we uploaded all the saved training model to a Google Drive folder. Please download them from the attached link:** [save wieght matrix Goole Drive](https://drive.google.com/drive/folders/1rE9SnO3W2ADvKPnfoQRkQjWPpt-DtcSa?usp=sharing)
 
 After downloading the given pre-trained models, please put the trained model into the "model" folder.
 
